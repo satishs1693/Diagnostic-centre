@@ -1,5 +1,6 @@
 package beans;
 //satish
+//sammmmmmmmmmmmmmmmmmmm
 public class CreateReportBean {
 	private String patientid;
 	private String test1;
