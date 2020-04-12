@@ -1,5 +1,6 @@
 package beans;
 // satish tokala
+//sammmmmmm
 
 public class AdminBean {
 	private String UserName;
