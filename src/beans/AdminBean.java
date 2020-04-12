@@ -1,5 +1,5 @@
 package beans;
-
+//sbbbbbbbbbbbbbb
 public class AdminBean {
 	private String UserName;
 	private String password;
