@@ -15,5 +15,5 @@ public class AdminBean {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
+	//saaaaaaaaaaaa
 }

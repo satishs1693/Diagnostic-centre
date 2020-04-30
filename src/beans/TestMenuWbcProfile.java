@@ -3,7 +3,7 @@ package beans;
 public class TestMenuWbcProfile {
 	private String Testname;
 	private String Testamount;
-	
+	//saaaaaaaaaaaaa
 	public String getTestname() {
 		return Testname;
 	}
