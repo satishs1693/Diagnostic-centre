@@ -1,5 +1,6 @@
-package beans;
 
+package beans;
+//Satish added
 public class GenerateReportBean {
 	private String completeurineTest;
 	private String completebloodTest;
