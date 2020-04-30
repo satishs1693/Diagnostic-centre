@@ -3,7 +3,7 @@ package beans;
 public class TestMenuBean {
 	private String Testname;
 	private String Testamount;
-	//satish has added the code
+	//satish has added the code saaaaaaaaaa
 	
 	public String getTestname() {
 		return Testname;
