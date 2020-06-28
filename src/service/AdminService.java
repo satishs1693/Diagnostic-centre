@@ -7,7 +7,7 @@ import daoimplementation.AdminDAO;
 
 public class AdminService extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-   
+    //Added in service brach
 	public boolean checkUser(AdminBean user) 
 	 {
 		 
