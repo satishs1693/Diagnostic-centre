@@ -20,7 +20,7 @@ public class ReportDeliveryController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		GenerateReportBean grb=new GenerateReportBean();
 		GenerateReportBean grb1=new GenerateReportBean();
-
+		//satish
 		grb.setPatientId(request.getParameter("patientid"));
 		request.setAttribute("id1", request.getParameter("patientid"));
 		

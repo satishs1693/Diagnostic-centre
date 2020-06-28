@@ -22,6 +22,7 @@ public class AdminController extends HttpServlet {
         PrintWriter out = response.getWriter();
         
         try {
+			//Syst
             String user = request.getParameter("username");
             String password = request.getParameter("password");
             AdminBean login=new AdminBean();

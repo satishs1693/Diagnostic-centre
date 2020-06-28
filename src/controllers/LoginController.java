@@ -19,6 +19,7 @@ public class LoginController extends HttpServlet {
     	response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         try {
+			System.ot.println("satish");
             String user1 = request.getParameter("userName");
             String password = request.getParameter("password");
             Basic login=new Basic();
@@ -27,7 +28,7 @@ public class LoginController extends HttpServlet {
            LoginService loginService=new LoginService();
            boolean status=loginService.checkUser(login);
            if(status==true){
-              
+              //System.out.println("satish");
              HttpSession session=request.getSession(true);
              session.setMaxInactiveInterval(300); 
               RequestDispatcher rd=request.getRequestDispatcher("Home.jsp");
