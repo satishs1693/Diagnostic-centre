@@ -14,7 +14,7 @@ public class LoginService extends HttpServlet {
    
 	public boolean checkUser(Basic user) 
 	 {
-		  
+		  //Sivaram chaged
 		 LoginDAO loginDAO=new LoginDAO();
 		 return loginDAO.checkUser(user);    
 		} 
